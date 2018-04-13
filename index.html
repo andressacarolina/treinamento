@@ -3,15 +3,57 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Título</title>
+		<meta name="description" content="Descrição site">
+		<link rel="shortcut icon" href="favicon.png">
 	</head>
 <body>
+	<style type="text/css">
+		body {
+			background-color: blue;
+			background-image: url(Imagens/sobresuasasas.jpg);
+			background-size: cover;
+			color: #fff;
+			/* font-styles */
+			font-size: 14px;
+			font-family: Arial, sans-serif;
+			font-weight: normal;
+			text-transform: 
+		}
+		p {color: #ff0000;}
+		
+		.color-yellow{ color: yellow; }
+
+		.square {
+			width: 200px;
+			height: 220px;
+			background-color: green;
+			text-align: center;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-top: 10px;
+			padding: 20px
+			
+		}
+		.retangulo {
+			width: 200px;
+			height: 60px;
+			background-color: red;
+			text-align: center;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
+		}
+		
+	</style>
 	<!--elementos de blocos -->
-	<p>Meu gato é muito <strong>mal-humorado</strong></p>
+	<p>Meu gato é muito <strong class="color-yellow" >mal-humorado</strong></p>
 	<p>cachorro</p>
 	<a href="http://google.com.br" target="_blank" title="teste">meu link</a>
 	<a href="#">meu link</a>
-	<div>minha div</div>
-	<section>minha section</section>
+	<div class="retangulo">minha div</div>
+	<section class="square">minha section</section>
 	<h1>titulo 1</h1>
 	<!-- elementos em linha -->
 	<a href="meu link"></a>
